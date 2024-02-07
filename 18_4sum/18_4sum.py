@@ -1,3 +1,6 @@
+# Not my solution
+
+
 class Solution:
     def fourSum(self, nums: list[int], target: int):
         ans = []
@@ -6,6 +9,10 @@ class Solution:
             l: int, r: int, target: int, n: int, path: list[int], ans: list[list[int]]
         ) -> None:
             """Finds n numbers that add up to the target in [l, r]."""
+            # If the number of element in list is smaller than the number of components
+            # If the number of components is 1
+            # If multiplication of smallest components is still greater than the target
+            # If multiplication of largest components is still smaller than the target
             if r - l + 1 < n or n < 2 or target < nums[l] * n or target > nums[r] * n:
                 return
             if n == 2:
@@ -35,6 +42,6 @@ class Solution:
         return ans
 
 
-hello = Solution()
-for item in hello.fourSum([1, 0, -1, 0, -2, 2], 0):
-    print(item)
+# hello = Solution()
+# for item in hello.fourSum([1, 0, -1, 0, -2, 2], 0):
+#     print(item)
