@@ -11,7 +11,7 @@ class LEETCODE_TOPIC(Enum):
     PANDAS = "pandas"
 
 
-name = "217. Contains Duplicate"
+name = "219. Contains Duplicate II"
 topic = LEETCODE_TOPIC.ALGORITHMS
 extension = "py"
 
