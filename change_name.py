@@ -11,7 +11,7 @@ class LEETCODE_TOPIC(Enum):
     PANDAS = "pandas"
 
 
-name = "220. Contains Duplicate III"
+name = "49. Group Anagrams"
 topic = LEETCODE_TOPIC.ALGORITHMS
 extension = "py"
 
