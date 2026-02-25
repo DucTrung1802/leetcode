@@ -11,7 +11,7 @@ class LEETCODE_TOPIC(Enum):
     PANDAS = "pandas"
 
 
-name = "271. Encode and Decode Strings"
+name = "238. Product of Array Except Self"
 topic = LEETCODE_TOPIC.ALGORITHMS
 extension = "py"
 
