@@ -11,7 +11,7 @@ class LEETCODE_TOPIC(Enum):
     PANDAS = "pandas"
 
 
-name = "347. Top K Frequent Elements"
+name = "271. Encode and Decode Strings"
 topic = LEETCODE_TOPIC.ALGORITHMS
 extension = "py"
 
