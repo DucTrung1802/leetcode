@@ -11,7 +11,7 @@ class LEETCODE_TOPIC(Enum):
     PANDAS = "pandas"
 
 
-name = "1929. Concatenation of Array"
+name = "14. Longest Common Prefix"
 topic = LEETCODE_TOPIC.ALGORITHMS
 extension = "py"
 
