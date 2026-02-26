@@ -11,7 +11,7 @@ class LEETCODE_TOPIC(Enum):
     PANDAS = "pandas"
 
 
-name = "128. Longest Consecutive Sequence"
+name = "1929. Concatenation of Array"
 topic = LEETCODE_TOPIC.ALGORITHMS
 extension = "py"
 
