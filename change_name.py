@@ -11,7 +11,7 @@ class LEETCODE_TOPIC(Enum):
     PANDAS = "pandas"
 
 
-name = "27. Remove Element"
+name = "169. Majority Element"
 topic = LEETCODE_TOPIC.ALGORITHMS
 extension = "py"
 
